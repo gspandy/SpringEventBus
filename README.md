@@ -5,7 +5,9 @@
 1.配置EventBus
 
 @Configuration
+
 @EnableEventBus
+
 public class EventBusConfig {
 
     @Bean

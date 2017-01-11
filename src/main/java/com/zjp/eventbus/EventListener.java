@@ -10,7 +10,7 @@ import com.google.common.eventbus.Subscribe;
  * Time: 9:45
  * 实现该接口的进行事件订阅
  */
-public interface EventListener {
+public interface EventListener<T> {
 
-    <T> void onEvent(T event);
+    void onEvent(T event);
 }
